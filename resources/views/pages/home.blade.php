@@ -8,37 +8,38 @@
     <p>Smart Works. Flexible Time. Real Impact.</p>
     <a href="#" class="btn-primary">Watch Trailer</a>
 
-    <div class="product-placeholder">
-        <img src="{{ asset('images/baner.png') }}" alt="Bambu Lab A1 Mini 3D Printer">
+    <div class="baner">
+        <img src="{{ asset('images/banner.png') }}" alt="HalfCodeId Banner">
     </div>
 </header>
 
-<section class="features">
-    <h2 class="section-title">Why A1 Mini?</h2>
+<section class="features" id="features">
+    <h2 class="section-title">Why HalfCodeId?</h2>
 
     <div class="grid-container">
         <div class="grid-item large">
             <div>
-                <h3>Multi-Color Printing</h3>
-                <p>The AMS lite brings multi-color 3D printing to everyone.</p>
+                <h3>Cool Build</h3>
+                <p>Delivering high-quality projects with creativity and style.</p>
             </div>
             <div class="placeholder-box"></div>
         </div>
 
         <div class="grid-item">
-            <h3>Full Auto Calibration</h3>
-            <p>No manual leveling needed. Everything is automatic.</p>
+            <h3>Flexible Schedule</h3>
+            <p>Work when it suits you—no strict 9-to-5 required.</p>
         </div>
 
         <div class="grid-item">
-            <h3>Active Motor Noise Cancellation</h3>
-            <p>Print silently with intelligent motor tuning.</p>
+            <h3>Real Impact</h3>
+            <p>Projects that make a difference, small or big.</p>
         </div>
 
         <div class="grid-item large">
-            <h3>High Speed Precision</h3>
-            <p>Rigid frame, metal rails, sensors, and powerful MCU.</p>
+            <h3>Smart Solutions</h3>
+            <p>Efficient, clean, and modern approaches for every project.</p>
         </div>
     </div>
+
 </section>
 @endsection
