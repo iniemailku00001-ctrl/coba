@@ -42,4 +42,26 @@
     </div>
 
 </section>
+<section class="projects" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="placeholder-box">
+                <img src="{{ asset('images/project1.png') }}" alt="Project 1">
+            </div>
+            <h3>Project 1</h3>
+            <p>Description of Project 1.</p>
+        </div>
+        <!-- Add more project items as needed -->
+    </div>
+</section>
+<section class="about" id="about">
+    <h2 class="section-title">About Us</h2>
+    <p>HalfCodeId is a team of passionate developers committed to delivering top-notch software solutions. With a focus on quality, creativity, and customer satisfaction, we strive to exceed expectations in every project we undertake.</p>
+</section>
+<section class="contact" id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <p>Ready to take your project to the next level? Get in touch with us today!</p>
+    <a href="#" class="btn-primary">Contact Us</a>
+</section>
 @endsection
