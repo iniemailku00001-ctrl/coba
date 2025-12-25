@@ -49,10 +49,7 @@
         @forelse ($projects as $project)
             <div class="grid-item">
                 <div class="placeholder-box">
-                    <img 
-                        src="{{ asset('storage/' . $project->image) }}" 
-                        alt="{{ $project->title }}"
-                    >
+                    <img src="{{ asset($project->image) }}" alt="{{ $project->title }}">
                 </div>
                 <h3>{{ $project->title }}</h3>
                 <p>{{ $project->description }}</p>
@@ -70,6 +67,6 @@
 <section class="contact" id="contact">
     <h2 class="section-title">Contact Us</h2>
     <p>Ready to take your project to the next level? Get in touch with us today!</p>
-    <a href="#" class="btn-primary">Contact Us</a>
+    <a href="#" class="btn-primary btn-contact">Contact Us</a>
 </section>
 @endsection
