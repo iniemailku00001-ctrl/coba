@@ -154,3 +154,23 @@ nav {
     display: block;
     margin: 0 auto;    /* center banner */
 }
+
+.about{
+    padding: 5rem 10%;
+}
+
+.about p{
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.contact{
+    padding: 5rem 10%;
+}
+
+.contact p{
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}

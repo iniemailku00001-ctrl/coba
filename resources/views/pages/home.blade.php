@@ -44,16 +44,24 @@
 </section>
 <section class="projects" id="projects">
     <h2 class="section-title">Projects</h2>
+
     <div class="grid-container">
-        <div class="grid-item">
-            <div class="placeholder-box">
-                <img src="{{ asset('images/project1.png') }}" alt="Project 1">
+        @forelse ($projects as $project)
+            <div class="grid-item">
+                <div class="placeholder-box">
+                    <img 
+                        src="{{ asset('storage/' . $project->image) }}" 
+                        alt="{{ $project->title }}"
+                    >
+                </div>
+                <h3>{{ $project->title }}</h3>
+                <p>{{ $project->description }}</p>
             </div>
-            <h3>Project 1</h3>
-            <p>Description of Project 1.</p>
-        </div>
-        <!-- Add more project items as needed -->
+        @empty
+            <p>Tidak ada project.</p>
+        @endforelse
     </div>
+
 </section>
 <section class="about" id="about">
     <h2 class="section-title">About Us</h2>
