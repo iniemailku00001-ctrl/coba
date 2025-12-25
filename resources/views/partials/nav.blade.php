@@ -1,13 +1,15 @@
 <nav>
-    <div class="logo">Bambu Lab</div>
+    <div class="logo" >
+        <img src="{{ asset('images/logo.png') }}" alt="Logo">
+    </div>
 
     <ul class="nav-links">
-        <li><a href="#">A1 Mini</a></li>
-        <li><a href="#">A1</a></li>
-        <li><a href="#">X1 Series</a></li>
-        <li><a href="#">P1 Series</a></li>
-        <li><a href="#">Filament</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
     </ul>
 
-    <a href="#" class="btn-primary">Buy Now</a>
+    <!-- <a href="#" class="btn-primary">Buy Now</a> -->
 </nav>

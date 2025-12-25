@@ -1,15 +1,15 @@
 @extends('layouts.app')
 
-@section('title', 'A1 Mini')
+@section('title', 'HalfCodeId')
 
 @section('content')
 <header class="hero">
-    <h1>A1 Mini</h1>
-    <p>Big Features. Mini Size. Colorful Printing.</p>
+    <h1>HalfCodeId</h1>
+    <p>Smart Works. Flexible Time. Real Impact.</p>
     <a href="#" class="btn-primary">Watch Trailer</a>
 
     <div class="product-placeholder">
-        [Image: Bambu Lab A1 Mini 3D Printer]
+        <img src="{{ asset('images/baner.png') }}" alt="Bambu Lab A1 Mini 3D Printer">
     </div>
 </header>
 

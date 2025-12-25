@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>@yield('title', 'Bambu Lab A1 Mini')</title>
+    <title>@yield('title', 'HalfCodeId')</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
     </main>
 
     <footer class="footer">
-        <p>&copy; 2024 Bambu Lab Clone Concept. All Rights Reserved.</p>
+        <p>&copy; 2025 HalfCodeId. All Rights Reserved.</p>
     </footer>
 
     <script src="{{ asset('js/app.js') }}"></script>
